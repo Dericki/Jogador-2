@@ -1,0 +1,10 @@
+package fiap.com.jogo;
+
+public class Guerreiro extends Jogador{
+	
+
+	public void name(int x, int y) {
+		
+	}
+
+}
