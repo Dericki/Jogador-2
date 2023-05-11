@@ -1,0 +1,9 @@
+package fiap.com.jogo;
+
+public interface Fase {
+	
+	public default void carregar() {
+		
+	}
+
+}
