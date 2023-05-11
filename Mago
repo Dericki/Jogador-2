@@ -1,0 +1,10 @@
+package fiap.com.jogo;
+
+public class Mago extends Jogador{
+	private int mp;
+	
+	public void mover(int x, int y) {
+		
+	}
+
+}
