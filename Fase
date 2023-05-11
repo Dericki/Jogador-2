@@ -1,9 +1,10 @@
 package fiap.com.jogo;
 
-public interface Fase {
+public class Fase {
 	
-	public default void carregar() {
-		
-	}
+	public void carregar(ElementoVisual elementoVisual) {
+        System.out.println("hi");
+    }
+
 
 }
