@@ -2,8 +2,10 @@ package fiap.com.jogo;
 
 public class Fase {
 	
+	
 	public void carregar(ElementoVisual elementoVisual) {
-        System.out.println("hi");
+        System.out.println("CARREGANDO!!!");
+ 
     }
 
 
