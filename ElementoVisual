@@ -1,0 +1,7 @@
+package fiap.com.jogo;
+
+public interface ElementoVisual {
+
+    void desenhar();
+
+}
