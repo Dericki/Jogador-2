@@ -1,29 +1,21 @@
 package fiap.com.jogo;
 
+
 public class Jogo {
 
 	public static void main(String[] args) {
-		Jogador jogador1 = new Guerreiro();
-		Jogador jogador2 = new Mago();
+		Guerreiro gutts = new Guerreiro();
+		Mago merlyn = new Mago();
+		Dragao banguela = new Dragao();
+		BolaDeFogo fireBoll = new BolaDeFogo();
 		
-		System.out.println("Jogador1 " + jogador1.getNome()+ 
-									"XP=" + jogador1.getXp() +
-									" HP=" + jogador1.getHp() +   
-									" Envenenado=" + jogador1.isEnvenenado()   
-									);
-		jogador1.ganharExperiencia(5);
-		jogador2.ganharExperiencia(100);
-		jogador1.receberAntidoto();
-		jogador2.atacar(jogador1);
+		Fase fase = new Fase();
 		
 		
-		System.out.println("Jogador1 " + jogador1.getNome()+ 
-				"XP=" + jogador1.getXp() +
-				" HP=" + jogador1.getHp() +   
-				" Envenenado=" + jogador1.isEnvenenado()   
-				);
-		
-		System.out.println("Jogador2 XP" + jogador2.getXp());
+		fase.carregar(gutts);
+		fase.carregar(merlyn);
+		fase.carregar(banguela);
+		fase.carregar(fireBoll);
 		
 		
 	}
